@@ -1,0 +1,40 @@
+/* Style for lot group container */
+div.lot-group {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Style for table cells */
+table.table td {
+    vertical-align: middle !important;
+}
+
+/* Total display below lot fields */
+#lotTotalDisplay {
+    color: #333;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+/* Product table header and total quantity column */
+table#productTable thead th {
+    background-color: #343a40; /* Matches Bootstrap's thead-dark */
+    color: white;
+    font-weight: bold;
+}
+
+table#productTable th.total-quantity,
+table#productTable td.total-quantity {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Existing styles remain the same, add this for the new column if desired */
+table#productTable td:nth-child(7) { /* Targets Additional Information column */
+    max-width: 200px; /* Prevent it from getting too wide */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

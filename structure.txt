@@ -1,0 +1,12 @@
+inventory-management/
+├── public/
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── main.js
+├── views/
+│   ├── index.html
+│   └── edit.html
+├── server.js
+├── package.json
+└── database.sql
